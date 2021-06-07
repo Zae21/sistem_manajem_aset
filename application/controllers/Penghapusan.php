@@ -8,7 +8,7 @@ class Penghapusan extends CI_Controller {
 		if (!$this->session->userdata('id_user')) {
 			redirect(site_url('auth'));
 		}
-		$this->load->model('M_penghapusan', 'mod');
+		$this->load->model('M_Penghapusan', 'mod');
 		$this->load->model('M_Asset');
 	}
 

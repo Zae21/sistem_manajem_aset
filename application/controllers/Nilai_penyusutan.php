@@ -8,7 +8,7 @@ class Nilai_penyusutan extends CI_Controller {
 		if (!$this->session->userdata('id_user')) {
 			redirect(site_url('auth'));
 		}
-		$this->load->model('m_nilai_penyusutan', 'mod');
+		$this->load->model('M_Nilai_penyusutan', 'mod');
 		$this->load->model('M_Asset');
 	}
 

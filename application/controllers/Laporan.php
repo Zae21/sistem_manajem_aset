@@ -8,7 +8,7 @@ class Laporan extends CI_Controller
 		parent::__construct();
 		date_default_timezone_set("Asia/Bangkok");
 		$this->load->library('Pdf');
-		$this->load->model('m_laporan');		
+		$this->load->model('M_laporan');		
 	}
 	
 	public function sewa()
